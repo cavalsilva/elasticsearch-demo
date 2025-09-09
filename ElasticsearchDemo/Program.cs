@@ -4,10 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-//var fingerprint = "93:8A:66:11:FD:65:11:06:AD:AF:42:85:56:6E:7D:06:E1:E6:DA:A4:3F:95:3B:2A:55:79:47:DC:07:5A:95:1F";
-//var user = "elastic";
-//var password = "b8zUfk-4FPd1nIztGoVK";
-
 var host = Host.CreateDefaultBuilder(args)
     // Adiciona o suporte a User Secrets quando estiver em ambiente de desenvolvimento
     .ConfigureAppConfiguration((context, config) =>
